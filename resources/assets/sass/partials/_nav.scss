@@ -1,0 +1,29 @@
+.containNav {
+  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  height: 52px;
+  background-position: center;
+}
+.navbar-default {
+  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-position: center;
+  background-color: $brand-info;
+  border:  none;
+  border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $brand-primary;
+
+  &:hover {
+    color: $brand-off;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: $brand-primary;
+  font-weight: bold;
+
+  &:hover {
+    color: $brand-off;
+  }
+}
+

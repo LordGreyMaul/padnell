@@ -1,0 +1,23 @@
+.innerHeader {
+  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-position: center;
+  height: 400px;
+  img {
+    width: 10%;
+    padding: 10px;
+  }
+  h1 {
+    @include heading(70px);
+    color: $brand-primary;
+  }
+}
+
+h2 {
+  @include heading(20px);
+}
+
+.subpage-header {
+  @include heading(70px);
+  color: $brand-primary;
+  text-align: center;
+}

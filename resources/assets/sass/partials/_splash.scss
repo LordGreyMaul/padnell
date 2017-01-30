@@ -1,0 +1,68 @@
+.splash {
+  background-image: url("http://localhost/padnellrover/public/img/background1.jpg");
+  background-size: cover;
+  color: #636b6f;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content-menu {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+  color: $brand-info;
+  font-family: 'Anton', sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $brand-primary;
+}
+.title-span {
+  color: $brand-primary;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $brand-info;
+}
+.links  {
+  margin-bottom: 30px;
+}
+.links > a {
+  color: $brand-primary;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-shadow: 2px 2px $brand-info;
+  text-transform: uppercase;
+
+}
+
+.m-b-md {
+  margin-bottom: 20px;
+}
+
+.button {
+  @include btn-primary(20px , $brand-primary);
+}

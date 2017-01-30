@@ -1,0 +1,22 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300);
+
+//mixins
+@import "mixins";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Partials
+@import "partials/nav";
+@import "partials/splash";
+@import "partials/globel";
+@import "partials/homepage";
+
+body {
+  background: #E4F5F1;
+}

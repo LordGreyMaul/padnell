@@ -1,0 +1,22 @@
+@mixin heading($font-size) {
+  font-size: $font-size;
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+@mixin btn-primary($font-size , $bg) {
+  font-size: $font-size;
+  background-color: $bg;
+  color: $brand-info;
+  border-radius: 6px;
+  padding: 10px;
+
+  &:hover {
+    background: darken($bg,10%);
+    transition: all 0.3s ease;
+    color: $brand-off;
+  }
+  &active {
+    background: darken($bg,25%);
+  }
+  }

@@ -1,0 +1,19 @@
+.homeTitle {
+  @include heading(50px);
+
+  span {
+    color: $brand-primary;
+
+  }
+}
+.miniTitle {
+  @include heading(24px);
+  margin-top: 0px;
+  color: $brand-primary;
+}
+
+.backBox {
+  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  padding: 15px;
+  background-position: center;
+}
