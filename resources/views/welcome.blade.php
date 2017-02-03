@@ -37,10 +37,100 @@
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <img src="{{URL::asset('/img/web/home3.PNG')}}" alt="Padnell Rovers"
-                         class="img-responsive center-block">
+                    <div class="col-md-6 fixturebox">
+                        <h3>Latest Result</h3>
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-5">
+                                <img src="{{URL::asset('/img/web/padnell.png')}}" alt="Padnell Logo" width="70px"
+                                     height="70px">
+                                <h2>Padnell Under 12's</h2>
+                                <ul>
+                                    <li>Lennox (31)</li>
+                                    <li>Bailey (44)</li>
+                                    <li>Oakley (51)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <h1>3-3</h1>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="{{URL::asset('/img/web/badge.png')}}" alt="Padnell Logo" width="70px"
+                                     height="70px">
+                                <h2>Stubbington Under 12's</h2>
+                                <ul>
+                                    <li>Rodgers (36)</li>
+                                    <li>Morris (52)</li>
+                                    <li>Bart (78)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 fixtures">
+                        <h3>Latest Fixtures</h3>
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-5">
+                                <h2>Padnell Under 12's</h2>
+                            </div>
+                            <div class="col-md-2">
+                                <h2>VS</h2>
+                            </div>
+                            <div class="col-md-5">
+
+                                <h2>Stubbington Youth</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-5">
+                                <h2>Padnell Under 10's</h2>
+                            </div>
+                            <div class="col-md-2">
+                                <h2>VS</h2>
+                            </div>
+                            <div class="col-md-5">
+
+                                <h2>Warshash Wasps</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-5">
+                                <h2>Padnell Under 12's</h2>
+                            </div>
+                            <div class="col-md-2">
+                                <h2>VS</h2>
+                            </div>
+                            <div class="col-md-5">
+
+                                <h2>Boreham Wood</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-5">
+                                <h2>Padnell Under 9's</h2>
+                            </div>
+                            <div class="col-md-2">
+                                <h2>VS</h2>
+                            </div>
+                            <div class="col-md-5">
+
+                                <h2>Lee on solent</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container padnellBox">
+        <div class="col-md-12">
+            <h2 class="miniTitle">We are Padnell</h2>
+            <p>Padnell Rovers FC› are currently registered and affiliated with   Hampshire FA, The Mid Solent Youth
+                Football league, and the Portsmouth Youth football league for 2017/18 season.</p>
+            <p>OUR AFFILIATION NUMBER FOR 2017/18 SEASON IS:</p>
+
+                <p>We are proud to say that after a lot of hard work, our club has now obtained the expected charter standard status, we are looking to progress our club with this in mind.
+                As a club we abide by the English FA's guidelines and follow and heavily promote the FA Respect campaign at all times around our club.
+                We ask all involved with our club to take the time to read the clubs rule book in order to follow all the guidelines expected in youth football.
+                Many Thanks </p>
         </div>
     </div>
     <!-- End of content -->

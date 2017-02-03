@@ -13,7 +13,61 @@
 }
 
 .backBox {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   padding: 15px;
   background-position: center;
+
+}
+
+.fixturebox {
+  background: $brand-rgb-primary;
+  padding: 0 25px 25px 25px;
+  border-radius: 5px;
+  border: 4px solid $brand-primary;
+  h3 {
+    @include heading(25px);
+    color: $brand-off;
+    border-bottom: 2px solid $brand-off;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px $brand-info;
+
+  }
+  h2 {
+    @include heading(17px);
+    color: $brand-off;
+    text-shadow: 2px 2px $brand-info;
+
+  }
+  h1 {
+    @include heading(30px);
+    color: $brand-off;
+    border-bottom: 1px solid $brand-off;
+    text-shadow: 2px 2px $brand-info;
+  }
+    ul {
+      li {
+        list-style: none;
+        text-align: left;
+        color: $brand-off;
+      }
+    }
+
+}
+.fixtures {
+  h3 {
+    @include heading(25px);
+    color: $brand-off;
+    border-bottom: 2px solid $brand-off;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px $brand-info;
+  }
+  h2 {
+    @include heading(17px);
+    color: $brand-off;
+    text-shadow: 2px 2px $brand-info;
+
+  }
+}
+.padnellBox {
+  padding: 15px;
 }

@@ -5732,12 +5732,12 @@ button.close {
     display: none !important; } }
 
 .containNav {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   height: 52px;
   background-position: center; }
 
 .navbar-default {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   background-position: center;
   background-color: #000000;
   border: none;
@@ -5746,16 +5746,16 @@ button.close {
 .navbar-default .navbar-nav > li > a {
   color: #F1CA41; }
   .navbar-default .navbar-nav > li > a:hover {
-    color: #FFFFFF; }
+    color: #f5f8fa; }
 
 .navbar-default .navbar-brand {
   color: #F1CA41;
   font-weight: bold; }
   .navbar-default .navbar-brand:hover {
-    color: #FFFFFF; }
+    color: #f5f8fa; }
 
 .splash {
-  background-image: url("http://localhost/padnellrover/public/img/background1.jpg");
+  background-image: url("/img/background1.jpg");
   background-size: cover;
   color: #636b6f;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -5822,7 +5822,7 @@ button.close {
   .button:hover {
     background: #eebd12;
     transition: all 0.3s ease;
-    color: #FFFFFF; }
+    color: #f5f8fa; }
   .buttonactive {
     background: #a6840c; }
 
@@ -5866,9 +5866,59 @@ h2 {
   color: #F1CA41; }
 
 .backBox {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   padding: 15px;
   background-position: center; }
+
+.fixturebox {
+  background: rgba(241, 202, 65, 0.4);
+  padding: 0 25px 25px 25px;
+  border-radius: 5px;
+  border: 4px solid #F1CA41; }
+  .fixturebox h3 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    color: #f5f8fa;
+    border-bottom: 2px solid #f5f8fa;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #000000; }
+  .fixturebox h2 {
+    font-size: 17px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    color: #f5f8fa;
+    text-shadow: 2px 2px #000000; }
+  .fixturebox h1 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    color: #f5f8fa;
+    border-bottom: 1px solid #f5f8fa;
+    text-shadow: 2px 2px #000000; }
+  .fixturebox ul li {
+    list-style: none;
+    text-align: left;
+    color: #f5f8fa; }
+
+.fixtures h3 {
+  font-size: 25px;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  color: #f5f8fa;
+  border-bottom: 2px solid #f5f8fa;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px #000000; }
+
+.fixtures h2 {
+  font-size: 17px;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  color: #f5f8fa;
+  text-shadow: 2px 2px #000000; }
+
+.padnellBox {
+  padding: 15px; }
 
 body {
   background: #E4F5F1; }

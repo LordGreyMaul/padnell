@@ -6,10 +6,15 @@ $body-bg: #f5f8fa;
 $brand-primary: #F1CA41;
 $brand-info: #000000;
 $brand-third: #2056C0;
-$brand-off: #FFFFFF;
+$brand-off: #f5f8fa;
+
+$brand-rgb-primary: rgba(241,202,65, 0.4);
+$brand-rgb-info: rgba(0,0,0, 0.5);
+$brand-rgb-third: rgba(32,86,192, 0.5);
+$brand-rgb-off: rgba(255,255,255, 0.5);
 
 
-// Typography
+  // Typography
 $font-family: 'Open Sans Condensed', sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
