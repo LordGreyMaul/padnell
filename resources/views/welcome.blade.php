@@ -123,7 +123,7 @@
     <div class="container padnellBox">
         <div class="col-md-12">
             <h2 class="miniTitle">We are Padnell</h2>
-            <p>Padnell Rovers FC› are currently registered and affiliated with   Hampshire FA, The Mid Solent Youth
+            <p>Padnell Rovers FC are currently registered and affiliated with   Hampshire FA, The Mid Solent Youth
                 Football league, and the Portsmouth Youth football league for 2017/18 season.</p>
             <p>OUR AFFILIATION NUMBER FOR 2017/18 SEASON IS:</p>
 

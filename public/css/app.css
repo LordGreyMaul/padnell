@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5788,7 +5788,7 @@ button.close {
 .title {
   font-size: 84px;
   color: #000000;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #F1CA41; }
 
@@ -5827,7 +5827,7 @@ button.close {
     background: #a6840c; }
 
 .innerHeader {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   background-position: center;
   height: 400px; }
   .innerHeader img {
@@ -5836,32 +5836,43 @@ button.close {
   .innerHeader h1 {
     font-size: 70px;
     color: black;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #F1CA41; }
 
 h2 {
   font-size: 20px;
   color: black;
-  font-family: 'Anton', sans-serif; }
+  font-family: 'Oswald', sans-serif; }
 
 .subpage-header {
   font-size: 70px;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #F1CA41;
   text-align: center; }
+
+.footer p {
+  color: #f5f8fa; }
+
+.footer .social {
+  padding: 0 15px 40px 15px; }
+  .footer .social h2 {
+    font-size: 17px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    color: #f5f8fa; }
 
 .homeTitle {
   font-size: 50px;
   color: black;
-  font-family: 'Anton', sans-serif; }
+  font-family: 'Oswald', sans-serif; }
   .homeTitle span {
     color: #F1CA41; }
 
 .miniTitle {
   font-size: 24px;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-top: 0px;
   color: #F1CA41; }
 
@@ -5878,7 +5889,7 @@ h2 {
   .fixturebox h3 {
     font-size: 25px;
     color: black;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #f5f8fa;
     border-bottom: 2px solid #f5f8fa;
     margin-bottom: 15px;
@@ -5886,13 +5897,13 @@ h2 {
   .fixturebox h2 {
     font-size: 17px;
     color: black;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #f5f8fa;
     text-shadow: 2px 2px #000000; }
   .fixturebox h1 {
     font-size: 30px;
     color: black;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #f5f8fa;
     border-bottom: 1px solid #f5f8fa;
     text-shadow: 2px 2px #000000; }
@@ -5904,7 +5915,7 @@ h2 {
 .fixtures h3 {
   font-size: 25px;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #f5f8fa;
   border-bottom: 2px solid #f5f8fa;
   margin-bottom: 15px;
@@ -5913,12 +5924,12 @@ h2 {
 .fixtures h2 {
   font-size: 17px;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #f5f8fa;
   text-shadow: 2px 2px #000000; }
 
 .padnellBox {
-  padding: 15px; }
+  padding: 15px 15px 40px 15px; }
 
 body {
   background: #E4F5F1; }

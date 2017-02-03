@@ -11,6 +11,12 @@
             </div>
             <div class="container" style="padding: 50px;">
                 <div class="col-md-10 col-md-offset-1">
+                    <img src="/img/web/padnell.png" alt="Padnell Rovers Contact Us" width="30%" class="center-block">
+                    <hr>
+                    <p>Should you wish to contact the club, please do so by using the form below or
+                    using one of the many social networks we have running.</p>
+                    <p>Padnell Rovers FC are currently registered and affiliated with Hampshire FA, The Mid Solent Youth
+                    <hr>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Name</label>

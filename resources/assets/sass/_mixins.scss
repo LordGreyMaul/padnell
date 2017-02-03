@@ -1,7 +1,7 @@
 @mixin heading($font-size) {
   font-size: $font-size;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 @mixin btn-primary($font-size , $bg) {

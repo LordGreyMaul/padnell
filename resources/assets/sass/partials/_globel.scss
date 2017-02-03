@@ -1,5 +1,5 @@
 .innerHeader {
-  background-image: url("http://localhost/padnellrover/public/img/backblack.jpg");
+  background-image: url("/img/backblack.jpg");
   background-position: center;
   height: 400px;
   img {
@@ -20,4 +20,17 @@ h2 {
   @include heading(70px);
   color: $brand-primary;
   text-align: center;
+}
+
+.footer {
+  p {
+    color: $brand-off;
+  }
+  .social {
+    padding: 0 15px 40px 15px;
+    h2 {
+      @include heading(17px);
+      color: $brand-off;
+    }
+  }
 }
